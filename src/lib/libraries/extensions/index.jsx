@@ -407,7 +407,7 @@ export default [
 export const galleryLoading = {
     name: (
         <FormattedMessage
-            defaultMessage="TurboWarp Extension Gallery"
+            defaultMessage="AcidMod Extension Gallery"
             description="Name of extensions.turbowarp.org in extension library"
             id="tw.extensionGallery.name"
             values={{
@@ -415,7 +415,7 @@ export const galleryLoading = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://acidmod.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
@@ -433,7 +433,7 @@ export const galleryLoading = {
 export const galleryMore = {
     name: (
         <FormattedMessage
-            defaultMessage="TurboWarp Extension Gallery"
+            defaultMessage="AcidMod Extension Gallery"
             description="Name of extensions.turbowarp.org in extension library"
             id="tw.extensionGallery.name"
             values={{
@@ -441,13 +441,13 @@ export const galleryMore = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://acidmod.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
         <FormattedMessage
             // eslint-disable-next-line max-len
-            defaultMessage="Learn more about extensions at extensions.turbowarp.org."
+            defaultMessage="More Extensions"
             description="Appears after the extension list from the gallery was loaded successfully"
             id="tw.extensionGallery.more"
         />
@@ -459,7 +459,7 @@ export const galleryMore = {
 export const galleryError = {
     name: (
         <FormattedMessage
-            defaultMessage="TurboWarp Extension Gallery"
+            defaultMessage="AcidMod Extension Gallery"
             description="Name of extensions.turbowarp.org in extension library"
             id="tw.extensionGallery.name"
             values={{
@@ -467,13 +467,13 @@ export const galleryError = {
             }}
         />
     ),
-    href: 'https://extensions.turbowarp.org/',
+    href: 'https://acidmod.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
         <FormattedMessage
             // eslint-disable-next-line max-len
-            defaultMessage="Error loading extension gallery. Visit extensions.turbowarp.org to find more extensions."
+            defaultMessage="Error loading extension gallery. Visit acidmod.github.io/extensions to find more extensions."
             description="Appears when an error occurred loading extension list from the custom extension gallery"
             id="tw.extensionGallery.error"
         />
