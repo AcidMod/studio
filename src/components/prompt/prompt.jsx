@@ -43,12 +43,12 @@ const messages = defineMessages({
 
 const Packager = () => (
     <a
-        href="https://packager.turbowarp.org"
+        href="https://acidmod.github.io/exporter"
         target="_blank"
         rel="noopener noreferrer"
     >
         {/* Should not be translated */}
-        {'TurboWarp Packager'}
+        {'AcidMod Exporter'}
     </a>
 );
 
