@@ -30,6 +30,9 @@ const isTrustedExtension = url => (
     // For development.
     url.startsWith('http://localhost:8000/') ||
 
+    // AcidMod Gallery
+    url.startsWith('https://acidmod.github.io/extensions/')
+
     extensionsTrustedByUser.has(url)
 );
 
