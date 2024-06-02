@@ -56,7 +56,6 @@ const guiColors = {
     'drop-highlight': 'hsla(215, 100%, 77%, 1)', /* lighter than motion-primary */
 
     'menu-bar-background': 'var(--looks-secondary)',
-    'menu-bar-background-image': 'none',
     'menu-bar-foreground': '#ffffff',
 
     'assets-background': '#ffffff',
