@@ -13,7 +13,8 @@ const guiColors = {
     'extensions-transparent': 'hsla(10, 85%, 65%, 0.35)',
     'extensions-light': 'hsla(10, 57%, 85%, 1)',
 
-    'drop-highlight': '#CD7F32'
+    'drop-highlight': '#CD7F32',
+    'menu-bar-background-image': 'url(./glossMBar.png)'
 };
 
 const blockColors = {
