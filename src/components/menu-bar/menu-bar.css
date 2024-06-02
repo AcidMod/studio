@@ -27,7 +27,7 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: $menu-bar-standard-font-size;
     font-weight: bold;
-    background-image: $menu-bar-background-image;
+    background-image: url(./glossMBar.png);
     background-color: $motion-primary;
     background-size: 100% 100%;
     color: $menu-bar-foreground;
