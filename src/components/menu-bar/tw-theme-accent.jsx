@@ -7,7 +7,7 @@ import {connect} from 'react-redux';
 import check from './check.svg';
 import dropdownCaret from './dropdown-caret.svg';
 import {MenuItem, Submenu} from '../menu/menu.jsx';
-import {ACCENT_BLUE, ACCENT_MAP, ACCENT_PURPLE, ACCENT_RED, ACCENT_TURBO, ACCENT_REDUX, Theme} from '../../lib/themes/index.js';
+import {ACCENT_BLUE, ACCENT_MAP, ACCENT_PURPLE, ACCENT_RED, ACCENT_TURBO, ACCENT_REDUX, ACCENT_LIME, Theme} from '../../lib/themes/index.js';
 import {openAccentMenu, accentMenuOpen, closeSettingsMenu} from '../../reducers/menus.js';
 import {setTheme} from '../../reducers/theme.js';
 import {persistTheme} from '../../lib/themes/themePersistance.js';
@@ -20,24 +20,29 @@ const options = defineMessages({
         id: 'tw.accent.red'
     },
     [ACCENT_PURPLE]: {
-        defaultMessage: 'Amethyst',
+        defaultMessage: 'Grape',
         description: 'Name of the Amethyst color scheme. Matches modern Scratch.',
         id: 'tw.accent.purple'
     },
     [ACCENT_BLUE]: {
-        defaultMessage: 'Aqua',
+        defaultMessage: 'Blueberry',
         description: 'Name of the aqua color scheme. Matches Scratch before the high contrast update.',
         id: 'tw.accent.blue'
     },
     [ACCENT_TURBO]: {
-        defaultMessage: 'Turbo',
+        defaultMessage: 'Strawberry',
         description: 'Name of the Turbo color scheme. Matches TurboWarps default color scheme.',
         id: 'tw.accent.turbo'
     },
     [ACCENT_REDUX]: {
-        defaultMessage: 'Redux',
+        defaultMessage: 'Tangerine',
         description: 'Name of the Redux color scheme. Fruity!',
         id: 'tw.accent.redux'
+    },
+    [ACCENT_LIME]: {
+        defaultMessage: 'Lime',
+        description: 'Name of the Lime color scheme. She comes in colours everywhere.',
+        id: 'tw.accent.lime'
     }
 });
 
