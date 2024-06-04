@@ -6,6 +6,7 @@ import * as accentRed from './accent/red';
 import * as accentTurbo from './accent/turbo';
 import * as accentRedux from './accent/redux';
 import * as accentLime from './accent/lime';
+import * as accentPenguin from './accent/antartic';
 
 import * as guiLight from './gui/light';
 import * as guiDark from './gui/dark';
@@ -21,13 +22,15 @@ const ACCENT_RED = 'red';
 const ACCENT_TURBO = 'turbo';
 const ACCENT_REDUX = 'redux';
 const ACCENT_LIME = 'lime';
+const ACCENT_PENGUIN = 'pang';
 const ACCENT_MAP = {
     [ACCENT_PURPLE]: accentPurple,
     [ACCENT_BLUE]: accentBlue,
     [ACCENT_RED]: accentRed,
     [ACCENT_TURBO]: accentTurbo,
     [ACCENT_REDUX]: accentRedux,
-    [ACCENT_LIME]: accentLime
+    [ACCENT_LIME]: accentLime,
+    [ACCENT_PENGUIN]: accentPenguin
 };
 const ACCENT_DEFAULT = ACCENT_RED;
 
@@ -167,6 +170,7 @@ export {
     ACCENT_TURBO,
     ACCENT_REDUX,
     ACCENT_LIME,
+    ACCENT_PENGUIN
     ACCENT_MAP,
 
     GUI_LIGHT,
