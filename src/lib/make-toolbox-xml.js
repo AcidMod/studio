@@ -454,7 +454,7 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
             </block>
             <block type="control_get_counter"/>
             <block type="control_incr_counter"/>
-            <block type"control_clear_counter"/>
+            <block type="control_clear_counter"/>
             <block type="control_all_at_once"/>
         `}
         ${categorySeparator}
