@@ -16,7 +16,7 @@ const translate = (id, english) => {
 const motion = function (isInitialSetup, isStage, targetId, colors) {
     const stageSelected = translate(
         'MOTION_STAGE_SELECTED',
-        'Stage selected: no motion blocks'
+        'Stage selected: category unavailable'
     );
     // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
     return `
