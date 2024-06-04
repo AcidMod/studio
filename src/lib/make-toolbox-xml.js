@@ -452,6 +452,10 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
                     <shadow type="input_statement"/>
                 </value>
             </block>
+            <block type="control_get_counter"/>
+            <block type="control_incr_counter"/>
+            <block type"control_clear_counter"/>
+            <block type="control_all_at_once"/>
         `}
         ${categorySeparator}
         
