@@ -443,6 +443,14 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
             <block type="control_delete_this_clone"/>
         `}
         ${categorySeparator}
+            <block type="control_for_each">
+                <value name="VARIABLE">
+                    <shadow type="field_variable"/>
+                </value>
+                <value name="VALUE">
+                    <shadow type="input_value">
+                </value>
+            </block>
     </category>
     `;
 };
