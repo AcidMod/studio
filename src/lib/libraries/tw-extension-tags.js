@@ -4,5 +4,5 @@ import {APP_NAME} from '../brand';
 export default [
     {tag: 'scratch', intlLabel: 'Scratch'},
     {tag: 'tw', intlLabel: 'TurboWarp'},
-    {tag: 'acid', intlLabel: 'AcidMod'
+    {tag: 'acid', intlLabel: 'AcidMod'}
 ];
