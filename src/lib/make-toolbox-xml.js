@@ -448,6 +448,9 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
                 <value name="VALUE">
                     <shadow type="input_value"/>
                 </value>
+                <value name="SUBSTACK">
+                    <shadow type="input_statement"/>
+                </value>
             </block>
         `}
         ${categorySeparator}
