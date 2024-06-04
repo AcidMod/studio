@@ -42,7 +42,7 @@ const translateGalleryItem = (extension, locale) => ({
 let cachedGallery = null;
 
 const fetchLibrary = async () => {
-    const res = await fetch('https://acidmod.github.io/extensions/generated-metadata/extensions-v0.json');
+    const res = await fetch('https://acidmod.js.org/extensions/generated-metadata/extensions-v0.json');
     if (!res.ok) {
         throw new Error(`HTTP status ${res.status}`);
     }
@@ -53,8 +53,8 @@ const fetchLibrary = async () => {
         description: extension.description,
         descriptionTranslations: extension.descriptionTranslations || {},
         extensionId: extension.id,
-        extensionURL: `https://acidmod.github.io/extensions/${extension.slug}.js`,
-        iconURL: `https://acidmod.github.io/extensions/${extension.image || 'images/unknown.svg'}`,
+        extensionURL: `https://acidmod.js.org/extensions/${extension.slug}.js`,
+        iconURL: `https://acidmod.js.org/extensions/${extension.image || 'images/unknown.svg'}`,
         tags: ['tw'],
         credits: [
             ...(extension.by || []),
@@ -76,7 +76,7 @@ const fetchLibrary = async () => {
         }),
         docsURI: extension.docs ? `https://acidmod.github.io/extensions/${extension.slug}` : null,
         samples: extension.samples ? extension.samples.map(sample => ({
-            href: `${process.env.ROOT}editor?project_url=https://acidmod.github.io/extensions/samples/${encodeURIComponent(sample)}.sb3`,
+            href: `${process.env.ROOT}editor?project_url=https://acidmod.js.org/extensions/samples/${encodeURIComponent(sample)}.sb3`,
             text: sample
         })) : null,
         incompatibleWithScratch: true,
