@@ -441,8 +441,6 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
                 </value>
             </block>
             <block type="control_delete_this_clone"/>
-        `}
-        ${categorySeparator}
             <block type="control_for_each">
                 <value name="VARIABLE">
                     <shadow type="field_variable"/>
@@ -451,6 +449,9 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
                     <shadow type="input_value">
                 </value>
             </block>
+        `}
+        ${categorySeparator}
+        
     </category>
     `;
 };
