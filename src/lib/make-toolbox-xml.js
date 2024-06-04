@@ -446,7 +446,7 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
                     <shadow type="field_variable"/>
                 </value>
                 <value name="VALUE">
-                    <shadow type="input_value">
+                    <shadow type="input_value"/>
                 </value>
             </block>
         `}
