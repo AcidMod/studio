@@ -415,7 +415,7 @@ export const galleryLoading = {
             }}
         />
     ),
-    href: 'https://acidmod.github.io/extensions/',
+    href: 'https://acidmod.js.org/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
@@ -441,7 +441,7 @@ export const galleryMore = {
             }}
         />
     ),
-    href: 'https://acidmod.github.io/extensions/',
+    href: 'https://acidmod.js.org/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
@@ -467,7 +467,7 @@ export const galleryError = {
             }}
         />
     ),
-    href: 'https://acidmod.github.io/extensions/',
+    href: 'https://acidmod.js.org/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
