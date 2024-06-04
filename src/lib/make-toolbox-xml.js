@@ -441,15 +441,12 @@ const control = function (isInitialSetup, isStage, targetId, colors) {
                 </value>
             </block>
             <block type="control_delete_this_clone"/>
-            <block type="control_for_each">
-                <value name="VARIABLE">
-                    <shadow type="field_variable"/>
-                </value>
+            <block type="control_for_each"
+            id="control_for_each">
                 <value name="VALUE">
-                    <shadow type="input_value"/>
-                </value>
-                <value name="SUBSTACK">
-                    <shadow type="input_statement"/>
+                    <shadow type="math_whole_number">
+                        <field name="NUM">10</field>
+                    </shadow>
                 </value>
             </block>
             <block type="control_get_counter"/>
