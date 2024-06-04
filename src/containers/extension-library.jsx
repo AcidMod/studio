@@ -55,7 +55,7 @@ const fetchLibrary = async () => {
         extensionId: extension.id,
         extensionURL: `https://acidmod.js.org/extensions/${extension.slug}.js`,
         iconURL: `https://acidmod.js.org/extensions/${extension.image || 'images/unknown.svg'}`,
-        tags: ['tw'],
+        tags: ['acid'],
         credits: [
             ...(extension.by || []),
             ...(extension.original || [])
