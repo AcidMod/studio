@@ -649,7 +649,7 @@ const operators = function (isInitialSetup, isStage, targetId, colors) {
                 </shadow>
             </value>
         </block>
-                <block type="operator_threquals">
+        <block type="operator_threquals">
             <value name="OPERAND1">
                 <shadow type="text">
                     <field name="TEXT"/>
