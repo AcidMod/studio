@@ -844,7 +844,6 @@ const makeToolboxXML = function (isInitialSetup, isStage = true, targetId, categ
         operatorsXML, gap,
         variablesXML, gap,
         myBlocksXML, gap,
-        commentsXML
     ];
 
     if (turbowarpXML) {
