@@ -769,22 +769,6 @@ const myBlocks = function (isInitialSetup, isStage, targetId, colors) {
     </category>
     `;
 };
-/* eslint-disable no-unused-vars */
-const comments = function (isInitialSetup, isStage, targetId, colors) {
-    // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
-    return `
-    <category name="%{BKY_CATEGORY_COMMENTS}" id="dialogs" colour="${colors.primary}" secondaryColour="${colors.tertiary}">
-        <block type="comments_commstack">
-            <value name="MESSAGE">
-                <shadow type="text">
-                    <field name="TEXT">comment</field>
-                </shadow>
-            </value>
-        </block>
-        ${categorySeparator}
-    </category>
-    `;
-};
 
 // eslint-disable-next-line max-len
 const extraTurboWarpBlocks = `
