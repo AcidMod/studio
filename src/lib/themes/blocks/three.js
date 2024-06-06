@@ -68,7 +68,7 @@ const blockColors = {
         quaternary: '#FF3355'
     },
     comments: {
-        primary: '#FF6680',
+        primary: '#FF6680', // category idea from CubesterYT
         secondary: '#FF4D6A',
         tertiary: '#FF3355',
         quaternary: '#FF3355'
