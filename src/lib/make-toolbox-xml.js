@@ -771,14 +771,13 @@ const myBlocks = function (isInitialSetup, isStage, targetId, colors) {
 };
 /* eslint-disable no-unused-vars */
 const comments = function (isInitialSetup, isStage, targetId, colors) {
-    const hello = ScratchBlocks.ScratchMsgs.translate('LOOKS_HELLO', 'Hello!');
     // Note: the category's secondaryColour matches up with the blocks' tertiary color, both used for border color.
     return `
-    <category name="%{BKY_CATEGORY_DIALOGS}" id="dialogs" colour="${colors.primary}" secondaryColour="${colors.tertiary}">
+    <category name="%{BKY_CATEGORY_COMMENTS}" id="dialogs" colour="${colors.primary}" secondaryColour="${colors.tertiary}">
         <block type="comments_commstack">
             <value name="MESSAGE">
                 <shadow type="text">
-                    <field name="TEXT">${hello}</field>
+                    <field name="TEXT">comment</field>
                 </shadow>
             </value>
         </block>
